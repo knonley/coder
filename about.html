@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>wCoder</title>
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="../wCoder/index.html">wCoder</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="../wCoder/index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Courses
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Python</a>
+          <a class="dropdown-item" href="#">JavaScript</a>
+          <a class="dropdown-item" href="#">Java</a>
+          <a class="dropdown-item" href="#">PHP</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Others Courses</a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="../wCoder/contact.html">Contact Us</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+    <button class="btn btn-danger type ml-2" type="submit" data-toggle="modal" data-target="#loginModal">Log In</button>
+    <button class="btn btn-danger type mx-1" type="submit" data-toggle="modal" data-target="#signupModal">Sign In</button>
+  </div>
+</nav>
+
+
+
+
+<!-- LoginModal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="loginModal">Login to wCoder</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <button type="submit" class="btn btn-primary">Login</button>
+</form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="signupModal">Create an Account</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Username</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Password</label>
+    <input type="password" class="form-control" id="exampleFormControlInput1">
+  </div>
+  <button type="submit" class="btn btn-primary">Signup</button>
+</form>
+<br>
+<center>
+<button type="button" class="btn btn-danger">Continue with Gmail</button>
+<button type="button" class="btn btn-warning">Continue with Facebook</button>
+</center>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="container-fluid"></div>
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../wCoder/img/third.jpeg" height="460px" width="400px" class="d-block w-100" alt="...">
+    </div>
+  </div>
+
+
+<div class="container my-4">
+  <h1 class="text-center">About Us</h1><br>
+  <div class="row">
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="../wCoder/img/about3.jpeg">
+        <h2><strong>Skilled</strong></h2>
+        <p>“when you don't create things, you become defined by your tastes rather than ability. your tastes only narrow & exclude people. so create.”</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="../wCoder/img/about2.jpeg">
+        <h2><strong>Effective</strong></h2>
+        <p>“Object-oriented programming offers a sustainable way to write spaghetti code. It lets you accrete programs as a series of patches.” </p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="../wCoder/img/about1.jpeg">
+        <h2><strong>Productive</strong></h2>
+        <p>“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div>
+</div>
+
+
+<div class="container py-5">
+<div class="row featurette d-flex justify-content-center align-items-center">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Coding & Programming. <span class="text-muted">Web and Android Development .</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="../wCoder/img/laptop1.jpeg">
+      </div>
+
+      <div class="col-md-7 order-2">
+        <h2 class="featurette-heading">Scripting & Gaming. <span class="text-muted">Real time Environment projects.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="../wCoder/img/laptop2.jpeg">
+      </div>
+
+    </div>
+</div>
+
+
+
+<center>
+<footer class="blog-footer">
+  <p>Copyright All reserve [2020]  <a href="https://getbootstrap.com/">KnoobCoder</a> by <a href="https://www.facebook.com/bikram.chaudhary.75286100">@kno0</a>.</p>
+  <p>
+    <a href="#">Back to top</a>
+  </p>
+</footer>
+</center>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
